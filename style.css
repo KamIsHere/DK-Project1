@@ -1,0 +1,98 @@
+body {
+ background-color: ;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#name {
+ font-family: Monospace;
+ padding-bottom: 20%;
+}
+
+
+.icons {
+
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+}
+
+#gitIcon {
+  color: black;
+}
+
+#freeIcon {
+  color: green;
+}
+
+
+
+
+.nav_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_menu li {
+  min-width: 5em;
+  float: right;
+  margin-left: 2em;
+  text-align: right;
+}
+
+h1 {
+  font-family: Monospace;
+}
+
+.introduction {
+  width: 50%;
+  padding-bottom: 15%;
+
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6 {
+  display:inline-block;
+  position: relative;
+  margin: 5px;
+  float:left;
+  width:25%;
+  height:200px;
+  background-color: lightgrey;
+}
+
+#contact {
+  float: right;
+
+}
+
+.projects {
+  padding-bottom: 20%;
+ }
+
+.work {
+
+}
+
+.clear {
+  clear: both;
+}
+
+.message {
+  width:35%;
+  height:100px;
+  border-radius: 5px;
+}
+
+
+button{
+  float: right;
+}
